@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "MIS",
+    "slug": "MIS",
+    "version": "1.0.0",
+    "icon": "./assets/af.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/al-furqan.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3b51a4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "*.isarms.org",
+              "pathPrefix": "/records"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mstrchf.MIS"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da6645d7-adc3-4c6d-bec7-5fc10d3e35c6"
+      }
+    }
+  }
+}
